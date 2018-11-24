@@ -1,0 +1,26 @@
+.ubahLoket:hover
+{
+	cursor: pointer;
+}
+.boxChangeLoket.span4 {
+    text-align: center;
+    background: #efefefef;
+    padding: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-top:10px;
+}
+.boxChangeLoket.span4:hover
+{
+    background:#b9b9b9;
+    cursor:pointer;
+    transition:all 300ms;
+}
+.row-fluid [class*="span"]:nth-child(3n+1)
+{
+	margin-left:0px;
+}
+.table-body {
+    background: #f9f9f9;
+    padding: 30px;
+}

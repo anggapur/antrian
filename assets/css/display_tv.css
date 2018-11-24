@@ -1,0 +1,280 @@
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body.tv,html {
+    height: 100%;
+    overflow: hidden;
+}
+.container-fluid {
+    height: 100%;
+}
+
+.row.bottomFloat {
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    left: 0px;
+    margin: 0px;
+}
+.floatLeft
+{
+    float: left;
+}
+span.marqueeText {
+    font-size: 45px;
+    background: #ddeff1;
+    height: 100px;
+    position: relative;
+    padding: 200px;
+}
+
+.bottomFloat .col-md-12 {
+    padding: 0px;
+    height:100%;
+}
+
+marquee {
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%);
+    height: 100%;
+}
+.center
+{
+    text-align: center;
+}
+
+div#time {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0px 0px;
+    color: #de5613;
+    padding: 2px 0px;
+}
+.boxLoket{
+    /* border: 1px solid black; */
+    flex: 1 0 auto;
+}
+.logo {
+    /* border: 1px solid black; */
+}
+.row.topper {
+    height: 90%;
+}
+
+.logo {
+    height: 10%;
+}
+
+.timeIndikator {
+    /* height: 10%; */
+    /* border: 1px solid black; */
+}
+
+.col-md-3 {
+    height: 100%;
+}
+div#time {
+    /* height: 100%; */
+}
+div#time {
+    /* transform: translateY(-50%); */
+    /* position: relative; */
+    /* top: 50%; */
+    /* transform: translateY(-25%); */
+}
+
+.col-md-9.videoTron {
+    height: 100%;
+    padding: 0px;
+    background: #000;
+}
+
+.col-md-3 {
+    padding-right: 0px;
+}
+.requestfullscreen {
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.exitfullscreen
+{
+     width: 50px;
+    height: 50px;
+    background: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+img.imgEntertaiment {
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    position: relative;
+    transform: translateY(-50%) translateX(-50%);
+}
+video.videoEntertaiment {
+    height: 100%;
+    /* height: auto; */
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+.col-md-9.videoTron {
+    overflow: hidden;
+}
+h4.typeLoket {
+    font-weight: bold;
+}
+
+h4.ketLoket {
+    color: #de5613;
+    font-weight: bold;
+}
+
+h3.noAntrian {
+    margin: 0px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.wrapLoket {
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.topper .col-md-3 {
+    display: flex;
+    flex-direction: column;
+}
+.requestfullscreen {
+    width: 75px;
+    height: 75px;
+    background: #efefefef;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-radius: 0px 0px 0px 10px;
+}
+.requestfullscreen img {
+    width: 100%;
+    padding: 10px;
+}
+.boxLoket, div#time, .logo {
+    background: linear-gradient(#ffffff,#efefef);
+}
+.mar {
+    height: 100%;
+    float: left;
+    position: relative;
+    background: linear-gradient(#fff,#efefefef);
+    font-size :30px;
+}
+
+.marquee {
+    height: 100%;
+    background: linear-gradient(#fff,#efefefef);
+}
+
+.js-marquee-wrapper {
+    height: 100%;
+}
+
+.js-marquee {
+    height: 100%;
+    margin-right: 0px !important;
+}
+p.textMar {
+    margin: 0;
+    top: 50%;
+    padding: 0px 50px;
+    position: relative;
+    transform: translateY(-50%);
+}
+.js-marquee {
+    margin-right: 0px !important;
+}
+.boxLoket.center {
+    display: flex;
+    flex-direction: row;
+}
+
+h3.noAntrian {
+    flex: 1;
+    font-size: 1;
+}
+
+/* Standard syntax */
+
+.blinking{
+    animation: myBlinking 1s infinite;
+    color: #217ee2 !important;
+}
+h4.typeLoket , h3.noAntrian {
+    color: #000;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+@keyframes myBlinking {
+     from {opacity: 0;}
+    to {opacity: 1;}
+}
+.rightPart {
+    width: 60%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.leftPart {
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+h4.typeLoket,h4.ketLoket {
+    width: 100%;
+    text-align: left !important;
+}
+
+.leftPart {
+    padding-left: 10px;
+    border-right: 1px dashed;
+    padding-right: 10px;
+}
+.rightPart,h3.noAntrian{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.col-md-3.wrapping {
+    width: 30% !important;
+}
+.col-md-9.videoTron{
+    width: 70% !important;
+}
+.boxLoket {
+    border-top: 1px solid black;
+}
+
+div#time {
+    border-top: 1px solid black;
+}
+img.img-logos.img-responsive {
+    margin: 0 auto !important;
+}
